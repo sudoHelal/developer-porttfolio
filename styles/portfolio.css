@@ -94,9 +94,7 @@ main {
 
   justify-content: space-around;
 }
-.info-description {
-  font-weight: bold;
-}
+
 /* About Section Styles */
 .about {
   padding: 130px;
@@ -106,4 +104,22 @@ main {
 }
 .about-info {
   text-align: center;
+}
+/* What I do styles */
+.info-title{
+  margin-bottom:0;
+  font-weight: normal;
+}
+.info-description {
+  font-weight: bold;
+  margin-top: 0;;
+}
+
+#what-i-do-description{
+  padding: 30px 150px;
+}
+.skill-container{
+  display: flex;
+  
+  
 }
