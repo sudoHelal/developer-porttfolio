@@ -1,55 +1,95 @@
 /* Shared related styles */
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
-.orange-color{
-    color: #FD6E0A;
+.orange-color {
+  color: #fd6e0a;
 }
-.btn-primary{
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.section-title {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
 }
 /* nav related styles */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 200px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
 }
-nav > ul{
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav li{
-    margin: 50px;
-    list-style: none;
+nav li {
+  margin: 50px;
+  list-style: none;
 }
-nav li a{
-    text-decoration: none;
-    color: #474747;
+nav li a {
+  text-decoration: none;
+  color: #474747;
 }
-.nav-title{
-color: var(--Dark-01, #181818);
-font-size: 45px;
-font-weight: 800;
-
+.nav-title {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-weight: 800;
 }
 /* Header related styles */
-.header{
-    background-color: #FFF8F3;
+.header {
+  background-color: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .banner-profile-pic {
+  width: 500px;
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-heading {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-description {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+/* Main Section Style */
 
+/* About Section Styles */
+.about {
+  padding: 130px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  margin: 130px 0px;
 }
-.banner .banner-profile-pic{
-    width: 500px;
-}
-
